@@ -1,0 +1,11 @@
+I have a dream!
+Who let't the dog out
+i have a daily dream
+fout = open('relativity', 'wt')
+poem = '''I have a dream!
+Who let't the dog out
+i have a daily dream
+'''
+fout.write(poem)
+# print(poem, file=fout)
+fout.close()
